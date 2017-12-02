@@ -1,3 +1,4 @@
-﻿#memset0.github.io
-采用Hux Blog模板
-made by memset0
+# memset0.github.io
+is building for my github pages
+
+thanks for help from ScrisQiu
