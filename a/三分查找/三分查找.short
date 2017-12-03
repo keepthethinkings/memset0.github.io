@@ -1,0 +1,32 @@
+<h1>三分查找</h1>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>三分查找用于求单峰函数的极值。<br />
+速度快，但是结果并非准确值。  </p>
+</div></div></div>
+<h2>方法</h2>
+<p>首先，在函数上标<strong>4个</strong>点：<mathjax>$x=le,rt,mid,mmid$</mathjax>。其中<mathjax>$mmid$</mathjax>是<mathjax>$mid$</mathjax>与<mathjax>$rt$</mathjax>的中点。  </p>
+<p><img style="max-width:100%" alt="选点" src="https://i4.buimg.com/567571/17945c49e5d712d3.png" />  </p>
+<p>现在的任务是通过<code>迭代</code>缩小范围：  </p>
+<div class="card"><div class="card-main"><div class="card-inner">
+<ol>
+<li>如果<mathjax>$f(mid)&gt;f(mmid)$</mathjax>，则<mathjax>$mmid$</mathjax>一定在峰的右边。    </li>
+<li>如果<mathjax>$f(mid)&lt;f(mmid)$</mathjax>，则<mathjax>$mid$</mathjax>一定在峰的左边。    </li>
+</ol>
+</div></div></div>
+<p>证明：
+1. 我们假设存在<mathjax>$f(mid)&gt;f(mmid)$</mathjax>且<mathjax>$mmid$</mathjax>在峰的左边。<br />
+由于<mathjax>$f(x)$</mathjax>在峰的左边单调递增，且<mathjax>$f(mid)&gt;f(mmid)$</mathjax>，所以<mathjax>$mid$</mathjax>在<mathjax>$mmid$</mathjax>的<strong>右边</strong>。<br />
+然而<mathjax>$mmid = \frac{mid+rt}{2}$</mathjax>，显然<mathjax>$mid$</mathjax>在<mathjax>$mmid$</mathjax><strong>左边</strong>。矛盾。<br />
+<br>
+2. 我们假设存在<mathjax>$f(mid)&lt;f(mmid)$</mathjax>且<mathjax>$mid$</mathjax>在峰的右边。<br />
+由于<mathjax>$f(x)$</mathjax>在峰的右边单调递减，且<mathjax>$f(mid)&lt;f(mmid)$</mathjax>，所以<mathjax>$mid$</mathjax>在<mathjax>$mmid$</mathjax>的<strong>右边</strong>。<br />
+然而<mathjax>$mmid = \frac{mid+rt}{2}$</mathjax>，显然<mathjax>$mid$</mathjax>在<mathjax>$mmid$</mathjax><strong>左边</strong>。矛盾。  </p>
+<h2>食用姿势</h2>
+<p>首先我们要证明，需要三分的函数是个<strong>单峰函数</strong>。<br />
+然后就可以写三分了。</p>
+<p><strong>如何控制精度？</strong><br />
+两种办法。一种是<code>控制迭代次数</code>，一种是<code>直接控制精度</code>。</p>
+<p><code>控制迭代次数</code>：设一个<mathjax>$lambda$</mathjax>值，迭代了这么多次之后就退出。  <br />
+<code>直接控制精度</code>：设一个精度限制<mathjax>$eps$</mathjax>，如果<mathjax>$rt-le &lt; eps$</mathjax>就退出。  </p>
+<p>具体用哪种方式<strong>由题目决定</strong>。<br />
+一般来说，如果题目要求控制<em>相对精度</em>，控制迭代次数比较好；如果题目要求控制<em>绝对精度</em>，直接去控制精确到小数点后多少位比较好。  </p>
