@@ -1,0 +1,26 @@
+<h1>Git or GitHub for Desktop</h1>
+<div class="card"><div class="card-main"><div class="card-inner">
+<p>学OI的人中，少部分知道GitHub</p>
+
+<p>知道GitHub的人中，少部分知道Git</p>
+
+</div></div></div>
+<p>下面就分别讲一下Git和GitHub是什么</p>
+
+<p><em>以下省略一万字</em></p>
+
+<p>于是，在Git和GitHub for Desktop中，</p>
+
+<p>我还是选择了GitHub for Desktop。</p>
+
+<p>理由如下：</p>
+
+<p>1.GitHub for Desktop安装更<strong>方便</strong>，更<strong>快</strong>，不需要配置环境变量 and so on.</p>
+
+<p>2.GitHub for Desktop是可选择的<strong>图形化界面</strong>，对于部分问题来说提示更<strong>人性化</strong>，更适合我这样的菜鸟。</p>
+
+<p>3.学校的电脑有自动还原，如果我要在学校更新Pages的话GitHub for Desktop的<strong>效率更高</strong>一些</p>
+
+<p>4.GitHub for Desktop与GitHub的<strong>整体衔接很好</strong>，而且<strong>支持其他Git仓库</strong>（像coding）</p>
+
+<p>于是，你看到的这个静态页面的每一次更新都是使用GitHub for Desktop提交的</p>

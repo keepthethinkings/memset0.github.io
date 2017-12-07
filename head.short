@@ -23,42 +23,49 @@
 	
 	<nav class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu">
 		<div class="menu-scroll">
-			<div class="menu-content">
-				<a class="menu-logo" href="/">memset0的博客</a>
+			<div class="menu-content"> 
+				<a class="menu-logo" href="/"> <span>
+					<p style="word-wrap: break-word;"><font size=4 color=blue><strong>[</strong></font><font size=5.5><b>memset0的博客</b></font><font size=4 color=blue><strong>]</strong></font></p>
+					<p style="word-wrap: break-word;"><font size=2>宝剑锋从磨砺出 梅花香自苦寒来</font></p>
+				</span> </a>
 				<ul class="nav">
 					<li>
 
-						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#1">题解</a>	
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#1"><strong>题解</strong></a>	
 						<ul class="menu-collapse collapse in" id="1">
 							<li><a class="waves-attach" href="/a/导弹拦截/">导弹拦截</a></li>
 						</ul>
 
-						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#2">算法</a>	
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#2"><strong>算法</strong></a>	
 						<ul class="menu-collapse collapse in" id="2">
 							<li><a class="waves-attach" href="/a/三分查找/">三分查找</a></li>
 						</ul>
 
-						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#3">笔记</a>	
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#3"><strong>资料</strong></a>	
 						<ul class="menu-collapse collapse in" id="3">
-						</ul>
-						
-						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#4">日记</a>	
-						<ul class="menu-collapse collapse in" id="4">
-						</ul>
-						
-						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#5">资料</a>	
-						<ul class="menu-collapse collapse in" id="5">
 							<li><a class="waves-attach" href="/a/软件/">软件</a></li>
 							<li><a class="waves-attach" href="/a/所见所闻/">所见所闻</a></li>
 						</ul>
 						
-						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#6">特定</a>	
-						<ul class="menu-collapse collapse in" id="6">
-							<li><a class="waves-attach" href="/a/姑姑生日快乐/">姑姑生日快乐</a></li>
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#4"><strong>博客搭建</strong></a>	
+						<ul class="menu-collapse collapse in" id="4">
+							<li><a class="waves-attach" href="/a/博客搭建/Git_or_Github_for_Windows">Git or Github for Desktop</a></li>
 						</ul>
 						
-						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#7">转载</a>	
+						<!--
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#5"><strong>日记</strong></a>	
+						<ul class="menu-collapse collapse in" id="5">
+						</ul>
+						-->
+						
+						<!-- <a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#6"><strong>特定</strong></a> -->
+						<!-- <ul class="menu-collapse collapse in" id="6"> -->
+						<!-- 	<li><a class="waves-attach" href="/a/姑姑生日快乐/">姑姑生日快乐</a></li> -->
+						<!-- </ul> -->
+						
+						<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#7"><strong>转载</strong></a>	
 						<ul class="menu-collapse collapse in" id="7">
+							<li><a class="waves-attach" href="/a/转载/PiedonPiedon">[SCRIS]PiedonPiedon</a></li>
 						</ul>
 						
 					</li>
@@ -76,18 +83,19 @@
 				</a>
 			</li>
 		</ul>
-		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="0" data-spy="affix">
+		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="1" data-spy="affix">
 			<p class="pagetitle"></p>
 		</span>
 		
 		<ul class="nav nav-list pull-right">
 			<li>
 				<a data-toggle="menu" href="/">
-					<span class="avatar avatar-sm"><img alt="memset0" src="\p\0.png"></span>
+					<span class="avatar avatar-sm"><img alt="memset0" src="\p\0.png" height=50></span>
 				</a>
 			</li>
 		</ul>
 	</header>
+	
 	<main class="content">
 		<div class="container">
 			<div class="row">
