@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="uyan_auth" content="8390f162fb" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+	<title>memset0's blog</title>
+
+	<!-- css -->
+	<link href="/css/base.min.css" rel="stylesheet">
+	<link href="/css/project.min.css" rel="stylesheet">
+	<link href="/css/styles.css" rel="stylesheet">
+
+	<script type="text/x-mathjax-config">
+  		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script src="https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</head>
+<body class="page-brand">
+	
+	
+	<nav class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu">
+		<div class="menu-scroll">
+			<div class="menu-content"> 
+				<a class="menu-logo" href="/"> <span>
+					<p style="word-wrap: break-word;"><font size=2 color=blue><strong>[</strong></font><font size=5.5><b>memset0的博客</b></font><font size=2 color=blue><strong>]</strong></font></p>
+					<p style="word-wrap: break-word;"><font size=2>宝剑锋从磨砺出 梅花香自苦寒来</font></p>
+				</span> </a>
+				<ul class="nav">
+					<li>
+					
+					
+
+					

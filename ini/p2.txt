@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<!-- 第二部分 -->
+
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<header class="header header-transparent header-waterfall ui-header">
+		<ul class="nav nav-list pull-left hidden-md hidden-lg">
+			<li>
+				<a data-toggle="menu" href="#ui_menu">
+					<span class="icon icon-lg">menu</span>
+				</a>
+			</li>
+		</ul>
+		<span class="header-logo header-affix visible-md-block visible-lg-block margin-right-no" data-offset-top="1" data-spy="affix">
+			<p class="pagetitle"> </p>
+		</span>
+		
+		<ul class="nav nav-list pull-right">
+			<li>
+				<a data-toggle="menu" href="/">
+					<span class="avatar avatar-sm"><img alt="memset0" src="\pic\0.png" height=50></span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	
+	<main class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
+					<section class="content-inner margin-top-no">
+					
+					
+					
+					
+					

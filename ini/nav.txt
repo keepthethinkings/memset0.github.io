@@ -1,0 +1,16 @@
+<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#1"><strong>题解</strong></a>
+<ul class="menu-collapse collapse in" id="1">
+<li><a class="waves-attach" href="/a/1001/">导弹拦截</a></li>
+</ul>
+<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#2"><strong>资料</strong></a>
+<ul class="menu-collapse collapse in" id="2">
+<li><a class="waves-attach" href="/a/1002/">软件</a></li>
+</ul>
+<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#3"><strong>杂记</strong></a>
+<ul class="menu-collapse collapse in" id="3">
+<li><a class="waves-attach" href="/a/1003/">所见所闻</a></li>
+</ul>
+<a class="collapsed waves-attach waves-effect" data-toggle="collapse" href="#4"><strong>SCRIS</strong></a>
+<ul class="menu-collapse collapse in" id="4">
+<li><a class="waves-attach" href="/a/1004/">PiedonPiedon</a></li>
+</ul>
