@@ -1,2 +1,2 @@
-# 然而我已经滚回去用Typecho了，所以这里已经荒废了
-我的博客：[memset0.cn](https://memset0.cn/)
+# memset0.github.io
+我的博客：[memset0.scris.top](https://memset0.scris.top/)
